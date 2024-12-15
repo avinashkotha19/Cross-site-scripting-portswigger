@@ -1,0 +1,7 @@
+Lab: DOM XSS in document.write sink using source location.search
+
+Steps: Enter any random value which has both alpha and numeric in search bar. 
+Inspect the value and observe the img src attribute.
+Add { "><script>alert(39)</script> } in url to break the attribute.
+
+You can solve the lab.

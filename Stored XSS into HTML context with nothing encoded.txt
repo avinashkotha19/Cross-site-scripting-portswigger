@@ -1,0 +1,5 @@
+Lab : Stored XSS into HTML context with nothing encoded
+
+Steps: Just access the lab and open any of the post that is published. In the post comment basic html injection which contains "alert" functionality and give the rest of the parameters.
+
+The lab is solved

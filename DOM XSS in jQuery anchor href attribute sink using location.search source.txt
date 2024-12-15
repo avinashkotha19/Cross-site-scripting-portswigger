@@ -1,0 +1,7 @@
+Lab : DOM XSS in jQuery anchor href attribute sink using location.search source
+
+Steps: Go to submit feedback page in lab. Change the query parameter returnpath followed by some alphanumeric string ("hyper123").
+Inspect the page and observe the alphanumeric string in "href " attribute.
+Change the return path to javascript:alert(document.cookie).
+
+you can solve the lab. 

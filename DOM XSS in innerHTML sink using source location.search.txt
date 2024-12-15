@@ -1,0 +1,7 @@
+Lab: DOM XSS in innerHTML sink using source location.search
+
+
+Steps: Enter the given payload in the search box "<img src=1 onerror=alert(1)>" and click "Search".
+The value in the code for src attribute shows invalid and throws an error. This payload triggers onerror event handler then calls the alert() function.
+
+As a result the lab is solved.
